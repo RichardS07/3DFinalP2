@@ -2262,6 +2262,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.7250912, y: 6.688406, z: 45.356594}
   m_Center: {x: 0.36254567, y: 2.844203, z: 20.745224}
+--- !u!1 &337075152 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1222731060140294, guid: 01bbe20c855564648b02e0092e511cac, type: 3}
+  m_PrefabInstance: {fileID: 1663412066}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &337075157
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337075152}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15687786, y: 0.06996566, z: 0.035409868}
+  m_Center: {x: 0.06807602, y: -0.004982866, z: 0.017701734}
 --- !u!1 &344339203
 GameObject:
   m_ObjectHideFlags: 0
@@ -5480,7 +5498,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1438546959266459337, guid: 60770bdb4dc667c45bea53db0339dc05, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.3070297
+      value: -2.493
       objectReference: {fileID: 0}
     - target: {fileID: 1438546959266459337, guid: 60770bdb4dc667c45bea53db0339dc05, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5553,6 +5571,19 @@ MonoBehaviour:
   verticalInput: 0
   projectileSpawnPoint: {fileID: 0}
   projectilePrefab: {fileID: 0}
+--- !u!65 &788942544
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788942541}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.8472893, z: 1}
+  m_Center: {x: 0, y: 0.91745573, z: 0}
 --- !u!1001 &795553163
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9837,6 +9868,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 740728f854d793848a530ac50ca86174, type: 3}
+--- !u!1 &1406737823 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100008, guid: bba02054afb54d74a9786778aa908316, type: 3}
+  m_PrefabInstance: {fileID: 502165754}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1406737825
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406737823}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.8914065, y: 0.7138896, z: 1.6214473}
+  m_Center: {x: -2.0920808, y: -0.27470306, z: -0.7087237}
 --- !u!1001 &1414372643
 PrefabInstance:
   m_ObjectHideFlags: 0
